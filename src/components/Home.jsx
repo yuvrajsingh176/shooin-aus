@@ -28,11 +28,11 @@ const Home = () => {
               of sports wins, car giveaways, epic holidays, and exclusive perks.
             </p>
             <div className="flex ml-6">
-              <button className="mr-8 text-[#05386b] font-bold hover:bg-[#05386b] hover:text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
+              <button className="mr-8 hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
                 Browse Collection
               </button>
-              <button className="text-[#05386b] font-bold border-[#05386b] border-[2px] p-4 rounded-xl hover:bg-[#05386b] hover:text-[#edf5e1]">
-                Sign Up
+              <button className="mr-8 hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
+              Sign Up
               </button>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Home = () => {
                 and other exclusive perk available through the Winners Locker
                 app.
               </p>
-              <button className="mr-8 text-[#05386b] font-bold hover:bg-[#05386b] hover:text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
+              <button className="mr-8 hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
                 JOIN NOW
               </button>
             </div>
@@ -132,6 +132,9 @@ const Home = () => {
               <div className="w-1/4 p-4">
                 {" "}
                 {/* Each card takes 1/4th of the width */}
+                <Card />
+              </div>
+              <div className="w-1/4 p-4">
                 <Card />
               </div>
               <div className="w-1/4 p-4">
