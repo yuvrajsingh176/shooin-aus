@@ -4,6 +4,8 @@ import icon2 from "../assets/5239033.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Card from "./Card";
+import { FaStar } from "react-icons/fa6";
+import Weekcard from "./Weekcard";
 const Home = () => {
   const textStyle = {
     fontFamily: "Zeyada, cursive",
@@ -28,15 +30,15 @@ const Home = () => {
               of sports wins, car giveaways, epic holidays, and exclusive perks.
             </p>
             <div className="flex ml-6">
-              <button className="mr-8 hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
+              <button className="mr-8 shadow-xl hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
                 Browse Collection
               </button>
               <button className="mr-8 hover:text-[#05386b] font-bold bg-[#05386b] hover:bg-[#edf5e1] text-[#edf5e1] p-4 rounded-xl border-[#05386b] border-[2px]">
-              Sign Up
+                Sign Up
               </button>
             </div>
           </div>
-          <div className="bg-[#05386b] mt-8 p-4 text-white flex justify-around rounded-xl">
+          <div className="bg-[#05386b] mt-8 p-4 text-white flex justify-around rounded-xl shadow-xl">
             <div className="flex flex-col items-center  justify-center text-center h-auto text-[#edf5e1] font-medium text-lg">
               <p>PROUDLY SUPPORTING</p>
               <p>
@@ -154,6 +156,197 @@ const Home = () => {
               </div>
               <div className="w-1/4 p-4">
                 <Card />
+              </div>
+            </div>
+          </div>
+
+          <div className="win-weekly flex flex-col mt-10 border-[#379683] border-2 rounded-xl p-4">
+            <p className="text-[#05386b] font-bold text-5xl flex justify-center">
+              WIN WEEKLY
+            </p>
+
+            <div className="cards flex justify-around mt-10">
+              <Weekcard />
+              <Weekcard />
+              <Weekcard />
+            </div>
+          </div>
+
+          <div className="plans flex flex-col mt-10 border-[#379683] border-2 rounded-xl p-4">
+            <p className="text-[#05386b] font-bold text-5xl flex justify-center">
+              CHOOSE YOUR PLAN
+            </p>
+            <p className="text-[#05386b] font-semibold text-2xl flex justify-center">
+              Become a member to go in the draw for every giveaway automatically
+            </p>
+
+            <div className="signup-cards flex justify-between mt-6">
+              <div className="border-black border-2 card  ">
+                <div className="bg-[#c4bdbf] flex border-b border-black">
+                  <p className="text-black text-3xl font-semibold">STARTER</p>
+                  <img src="https://winnerslocker.com.au/wp-content/uploads/2023/12/whistle-icon.png"></img>
+                </div>
+                <div className="content">
+                  <div className="flex flex-col items-center justify-center">
+                    <p>ACCUMULATING</p>
+                    <p>2 Entries / Month</p>
+                    <p>INTO EVERY SINGLE DRAW</p>
+                    <div className="bg-black h-[2px] px-4 w-full"></div>
+                  </div>
+                  <div>
+                    <ul className="">
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-black border-2 card">
+                <div className="bg-[#c4bdbf] flex border-b border-black">
+                  <p className="text-black text-3xl font-semibold">STARTER</p>
+                  <img src="https://winnerslocker.com.au/wp-content/uploads/2023/12/whistle-icon.png"></img>
+                </div>
+                <div className="content">
+                  <div className="flex flex-col items-center justify-center">
+                    <p>ACCUMULATING</p>
+                    <p>2 Entries / Month</p>
+                    <p>INTO EVERY SINGLE DRAW</p>
+                    <div className="bg-black h-[2px] px-4 w-full"></div>
+                  </div>
+                  <div>
+                    <ul className="">
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-black border-2 card">
+                <div className="bg-[#c4bdbf] flex border-b border-black">
+                  <p className="text-black text-3xl font-semibold">STARTER</p>
+                  <img src="https://winnerslocker.com.au/wp-content/uploads/2023/12/whistle-icon.png"></img>
+                </div>
+                <div className="content">
+                  <div className="flex flex-col items-center justify-center">
+                    <p>ACCUMULATING</p>
+                    <p>2 Entries / Month</p>
+                    <p>INTO EVERY SINGLE DRAW</p>
+                    <div className="bg-black h-[2px] px-4 w-full"></div>
+                  </div>
+                  <div>
+                    <ul className="">
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          2 ACCUMULATING monthly entries for more chances of win
+                          .
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
