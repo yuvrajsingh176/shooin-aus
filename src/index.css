@@ -1,9 +1,8 @@
 body {
-  /* background-color: #5cdb95; */
+  background-color: #007f73;
   /* background: linear-gradient(to bottom, #5cdb95, #da1b60); */
-  background: #5cdb95;
-  background: radial-gradient(circle, #5cdb95 0%, rgba(252,70,107,1) 100%);
-
+  /* background: radial-gradient(circle, #5cdb95 0%, #c2e20c 100%);
+   */
 }
 @tailwind base;
 @tailwind components;

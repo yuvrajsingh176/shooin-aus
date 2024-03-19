@@ -3,7 +3,7 @@ import { FaFacebook, FaYoutube, FaTiktok } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="text-[#05386b] fixed  w-[95%] h-auto">
+    <div className="text-[#FFC700] fixed  w-[95%] h-auto">
       <div className="flex text-xl font-semibold cursor-pointer transition ease-in justify-around items-center text-center">
         <img
           className="h-[50px] rounded-lg  w-[50px]"

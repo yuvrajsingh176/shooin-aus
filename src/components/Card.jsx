@@ -7,7 +7,7 @@ const Card = () => {
           src="https://winnerslocker.com.au/wp-content/uploads/2023/09/Winners-Locker-Winner-Christian-G.jpg"
         ></img>
       </div>
-      <div className="text-box text-[#05386b] font-bold text-lg">
+      <div className="text-box text-[#FFF455] font-bold text-lg">
         <span className="drawn">Drawn</span>
         <div className="inner-text">
           <h3>New Jetski & Ultimate Grand Final Experience worth $34k</h3>
