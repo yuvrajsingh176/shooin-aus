@@ -1,3 +1,8 @@
-#root {
-  /* padding: 1.5rem; */
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../src/fonts/Roboto-Thin-webfont.woff') format('woff');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }

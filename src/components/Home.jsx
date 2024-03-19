@@ -22,9 +22,12 @@ const Home = () => {
 
       <div className=" p-[24px] ">
         <div className="mt-24">
-          <div className="flex justify-around ">
+          <div className="flex h-1/2 justify-around ">
             <img className="h-[500px]" src={icon1}></img>
-            <img className="h-[500px]  rounded-lg" src={icon2}></img>
+            <img
+              className="h-[400px] w-1/2 object-cover mt-16  rounded-lg"
+              src="https://www.sweepsadvantage.com/sweepstakes-contests-blog/wp-content/uploads/2018/01/1_Win-Prizes.jpg"
+            ></img>
           </div>
           <div>
             <p className="text-[#FFC700] ml-6 my-10 font-medium text-2xl">
@@ -117,17 +120,13 @@ const Home = () => {
             </div>
           </div>
           <div className="past-winners flex flex-col mt-10 border-[#379683] border-2 rounded-xl p-4">
-            <img
-              className="absolute right-[580px]  h-[200px]"
-              src="https://winnerslocker.com.au/wp-content/uploads/2023/12/image-27.png"
-              alt=""
-            ></img>
             <strong
               style={textStyle}
               className="flex text-[#FFC700] items-center text-center justify-center w-full mt-20"
             >
               <span className="mr-6 text-[#FFC700]">PAST</span>{" "}
-              <span className="mr-8 text-[#FFC700]">W</span>
+              <span className="mr-6 text-[#FFC700]">W</span>
+              <span className="mr-6 text-[#FFC700]">I</span>
               <span className="mr-6 text-[#FFC700]">N</span>
               <span className="mr-6 text-[#FFC700]">N</span>
               <span className="mr-6 text-[#FFC700]">E</span>
