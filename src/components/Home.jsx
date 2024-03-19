@@ -20,8 +20,8 @@ const Home = () => {
     <>
       <Navbar />
 
-      <div className=" p-[24px]">
-        <div className="">
+      <div className=" p-[24px] ">
+        <div className="mt-24">
           <div className="flex justify-around ">
             <img className="h-[500px]" src={icon1}></img>
             <img className="h-[500px]  rounded-lg" src={icon2}></img>
