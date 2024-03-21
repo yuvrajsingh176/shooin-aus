@@ -1,6 +1,6 @@
 const Weekcard = () => {
   return (
-    <div className="card shadow-xl bg-[#05386b] rounded-xl p-6 flex flex-col items-center">
+    <div className="card my-6 md:my-0 shadow-xl bg-[#05386b] rounded-xl p-6 flex flex-col items-center">
       <p className="text-[#FFF455] font-semibold text-4xl">EPIC GIVEAWAYS</p>
       <p className="text-xl mt-4 text-[#FFF455]">
         The Winners Locker app is your key to <br></br>staying in the loop about
